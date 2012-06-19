@@ -89,11 +89,3 @@ def request(url):
     else:
         # RAISE HELL
         pass
-
-
-#ks=list(show('medecau', 'worm').last.__dict__)
-#ks.sort()
-#for k in ks:
-#    print k
-#print repositories()
-print show('travis-ci', 'travis-ci', 9)
