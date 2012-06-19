@@ -6,7 +6,7 @@ python:
 
 install:
   - pip install requests
-script: python test.py
+script: python tests.py
 notifications:
   irc:
     - "irc.freenode.org#medecau"
