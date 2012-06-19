@@ -1,6 +1,8 @@
 #dev noise
 ENV
 *.pyc
+dist
+*egg*
 
 # osx noise
 .DS_Store
