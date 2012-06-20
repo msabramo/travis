@@ -3,6 +3,7 @@ ENV
 *.pyc
 dist
 *egg*
+.tox
 
 # osx noise
 .DS_Store
