@@ -19,6 +19,7 @@ setup(
     url='https://github.com/medecau/travis',
     license=license,
     packages=find_packages(exclude=('tests')),
-    install_requires=['requests']
+    install_requires=['requests'],
+    test_suite='tests',
 )
 
