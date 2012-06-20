@@ -17,7 +17,7 @@ class BasicTestSuite(unittest.TestCase):
         repo = travis.show('travis-ci', 'travis-ci')
         self.assertEqual(type(repo.stable), type(bool()))
 
-    def test_buil_list(self):
+    def test_builds_list(self):
         builds = travis.builds('travis-ci', 'travis-ci')
         self.assertEqual(type(builds), type(list()))
 
